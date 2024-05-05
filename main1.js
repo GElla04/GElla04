@@ -77,7 +77,7 @@ loader.load('watch.glb', (gltf) => {
 
   mesh.position.set(0, 1, 1);
   scene.add(mesh);
-  mesh.scale.set(28, 28, 28);
+  mesh.scale.set(1, 1, 1);
   mesh.rotation.set(Math.PI / 4, 0, 0);
 
   document.getElementById('progress-container1').style.display = 'none';
