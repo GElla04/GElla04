@@ -18,11 +18,10 @@
     visibility: hidden;
 }
 
-.loader::after {
-    content: " ";
-    background-image: url(/img/icons\ contact-06.svg);
-    width: 75px;
-    height: 75px;
+.loader img {
+    width: 100px;
+    height: 100px;
+    z-index: 99999;
     animation: loading 0.75s ease infinite;
 }
 
