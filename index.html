@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04's PORTFOLIO</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/load.css">
+
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@v0.163.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@v0.163.0/examples/jsm/"
+        }
+      }
+    </script>
+
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <div class="loader"></div>
+    <div class="grid-container-home">
+        <div class="container">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <div class="nav" id="nav">
+            <a class="active" href="index.html">HOME</a>
+            <a href="project.html">PROJECT</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+
+        <div class="header">
+            <img src="/img/icons contact-06.svg">
+            <h1 class="title-portfolio">04's PORTFOLIO</h1>
+            <p class="sub-title">Welcome to the 04's gallery, projects, and mystery.</p>
+        </div>
+
+        <div class="title">
+            <h1 class="title-h1 hidden">CURRENT PROJECTS</h1>
+            <p class="project-sub-title hidden">Includes unfinished projects and on-going projects</p>
+        </div>
+
+        <div class="template">
+            <div class="picture">
+                <video class="hidden" controls>
+                    <source src="/vid/alleyway.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="description">
+                <h1 class="description-title hidden">ALLEYWAY</h1>
+                <p class="description-paragraph hidden">Personal Project that revolves around the idea of Neo-Tokyo and cinematic hidden places.</p>
+            </div>
+    
+            <div class="picture">
+                <div class="hidden" id="stray"></div>
+            </div>
+            <div class="description">
+                <h1 class="description-title hidden">STRAY</h1>
+                <p class="description-paragraph hidden">Sponsored on-progress 3D model for their game advertisement, STRAY.</p>
+                <p style="font-size: 1vw;" class="description-paragraph hidden">(Try moving it around and zoom in!)</p>
+            </div>
+
+        <div class="interested">
+            <h1 class="title-h1 hidden">WANT TO SEE MORE PROJECTS?</h1>
+            <a href="project.html" class="go-to-project hidden">PROJECTS</a>
+        </div>
+
+        <div class="footer">
+            <p>© 2024 04, All rights reserved</p>
+        </div>
+
+        <a href="#" class="scrollTop">Top</a>
+        
+    </div>
+    <script src="nav.js"></script>
+    <script type="module" src="main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04's PORTFOLIO</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/load.css">
+
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@v0.163.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@v0.163.0/examples/jsm/"
+        }
+      }
+    </script>
+
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <div class="loader"></div>
+    <div class="grid-container-project">
+        <div class="container">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        
+        <div class="header">
+            <img src="/img/icons contact-06.svg">
+            <h1 class="title-portfolio">04's PROJECTS</h1>
+            <p class="sub-title">Scroll down and Explore</p>
+        </div>
+
+        <div class="nav" id="nav">
+            <a href="index.html">HOME</a>
+            <a class="active" href="project.html">PROJECT</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+    </div>
+
+    <div class="option">
+        <a href="#illustration" class="optionbox hidden">ILLUSTRATION</a>
+        <a href="#design3d" class="optionbox hidden">3D DESIGN</a>  
+        <a href="#videography" class="optionbox hidden">VIDEOGRAPHY</a>
+        <a href="#photography" class="optionbox hidden">PHOTOGRAPHY</a>
+    </div>
+
+    <div class="project-title" id="illustration">
+        <h1 class="project-title-writing hidden">ILLUSTRATION</h1>
+        <p class="project-sub-title hidden">Software: Autodesk Sketcbook</p>
+    </div>
+
+    <div class="template">
+        <div class="picture">
+            <img class="hidden" src="img/ezka_w2.png">
+        </div>
+        <div class="description">
+            <h1 class="description-title hidden">CUSTOM KEYBOARD</h1>
+            <p class="description-paragraph hidden">Full Illustration for custom keyboard.</p>
+        </div>
+
+        <div class="picture">
+            <img class="hidden" src="img/ezka_w2.png">
+        </div>
+        <div class="description">
+            <h1 class="description-title hidden">CUSTOM KEYBOARD</h1>
+            <p class="description-paragraph hidden">Full Illustration for custom keyboard.</p>
+        </div>
+    </div>
+    
+    <div class="project-title" id="design3d">
+        <h1 class="project-title-writing hidden">3D DESIGN</h1>
+        <p class="project-sub-title hidden">Software: Blender</p>
+    </div>
+
+    <div class="template">
+        <div class="picture">
+            <div class="hidden" id="container1"></div>
+        </div>
+        <div class="description">
+            <h1 class="description-title hidden">NYSM 2 - watch</h1>
+            <p class="description-paragraph hidden">A 3d model of the watch made for the movie Title Sequence.</p>
+            <p style="font-size: 1vw;" class="description-paragraph hidden">(Try moving it around and zoom in!)</p>
+        </div>
+
+        <div class="picture">
+            <div class="hidden" id="container2"></div>
+        </div>
+        <div class="description">
+            <h1 class="description-title hidden">HEADSET</h1>
+            <p class="description-paragraph hidden">3D modeling of a retro inspired headset. </p>
+            <p style="font-size: 1vw;" class="description-paragraph hidden">(Try moving it around and zoom in!)</p>
+        </div>
+            
+        <div class="picture">
+            <img class="hidden" src="img/Render 3_3D Packaging_UV and Composition Practice_Graciella Tovelis Natalie Santosa_4096  cycles.png">
+        </div>
+        <div class="description">
+            <h1 class="description-title hidden">DazNuts</h1>
+            <p class="description-paragraph hidden">Full Packaging and product rendering for their advertisement.</p>
+            <p style="font-size: 1vw;" class="description-paragraph hidden">(fake client)</p>
+        </div>
+    </div>
+
+    <div class="project-title" id="videography">
+        <h1 class="project-title-writing hidden">VIDEOGRAPHY</h1>
+        <p class="project-sub-title hidden">Software: Premiere Pro, After Effects</p>
+    </div>
+
+    <div class="template">
+        <div class="picture">
+            <video controls>
+                <source src="/vid/NOW YOU SEE ME 2_TITLE SEQUENCE.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="description">
+            <h1 class="description-title hidden">NYSM 2 - Title Seq</h1>
+            <p class="description-paragraph hidden">A 1 minute 30 seconds title sequence based on the movie Now You See Me 2.</p>
+            <p style="font-size: 1vw;" class="description-paragraph hidden">(fake client)</p>
+        </div>
+
+        <div class="picture">
+            <video controls>
+                <source src="/vid/ECOHAVEN - SHORT MOVIE.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="description">
+            <h1 class="description-title hidden">Short Movie</h1>
+            <p class="description-paragraph hidden">Project collaboration with friends surrounding the theme "Climate Change" and raising awareness about the problem we're all facing nowadays.</p>
+        </div>
+    </div>
+    
+    <div class="project-title" id="photography">
+        <h1 class="project-title-writing hidden">PHOTOGRAPHY</h1>
+        <p class="project-sub-title hidden">Software: Photoshop, Lightroom</p>
+    </div>
+
+    <div class="template">
+        <div class="picture">
+            <img class="hidden" src="img/IMG_6517.JPG">
+        </div>
+        <div class="description">
+            <h1 class="description-title hidden">Head & Shoulders</h1>
+            <p class="description-paragraph hidden">A photo product with higher shutter speed and completed with the element of fresh to show how the product is refreshing and breezy for consumers.</p>
+            <p style="font-size: 1vw;" class="description-paragraph hidden">(fake client)</p>
+        </div>
+
+        <div class="picture">
+            <img class="hidden" src="img/IMG_6840.JPG">
+        </div>
+        <div class="description">
+            <h1 class="description-title hidden">SAPARELLA</h1>
+            <p class="description-paragraph hidden">A photo product with lower shutter speed and accompanied with lights to show the various taste one sip can give you. The different lights are present to make the product look fun and give that eclectic soda feel to match the sweet and sour taste.</p>
+            <p style="font-size: 1vw;" class="description-paragraph hidden">(fake client)</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2024 04, All rights reserved</p>
+    </div>
+
+    <a href="#" class="scrollTop">Top</a>
+
+    <script src="nav.js"></script>
+    <script type="module" src="main1.js"></script>
+    <script type="module" src="main2.js"></script>
+
+</body>
+
+</html>
