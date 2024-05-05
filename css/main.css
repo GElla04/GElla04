@@ -708,7 +708,9 @@ p {
     }
 
     .notes {
-        font-size: 2vw;
+        font-size: 3.5vw;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .option {
