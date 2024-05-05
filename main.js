@@ -78,7 +78,7 @@ loader.load('stray.gltf', (gltf) => {
 
   mesh.position.set(0, 0.2, 0);
   scene.add(mesh);
-  mesh.scale.set(4, 4, 4);
+  mesh.scale.set(2, 2, 2);
 
   document.getElementById('progress-stray').style.display = 'none';
 }, (xhr) => {
