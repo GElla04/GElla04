@@ -65,7 +65,7 @@ spotLightRight.shadow.bias = -0.0001;
 scene.add(spotLightRight);
 
 const loader = new GLTFLoader().setPath('public/headphone/');
-loader.load('headphon.gltf', (gltf) => {
+loader.load('headphone.gltf', (gltf) => {
   console.log('loading model');
   const mesh = gltf.scene;
 
